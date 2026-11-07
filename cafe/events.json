@@ -1,0 +1,275 @@
+{
+ "version": 1,
+ "level": 6,
+ "tokens_per_batch": 8,
+ "beans_per_tokens": 20,
+ "chain": [
+  {
+   "kind": "season",
+   "n": 45,
+   "tokens": 10
+  },
+  {
+   "kind": "guests",
+   "k": 1,
+   "tokens": 10
+  },
+  {
+   "kind": "cook",
+   "k": 1,
+   "tokens": 10
+  },
+  {
+   "kind": "season",
+   "n": 90,
+   "tokens": 15
+  },
+  {
+   "kind": "orders",
+   "k": 1,
+   "tokens": 15
+  },
+  {
+   "kind": "sold",
+   "k": 2,
+   "tokens": 15
+  },
+  {
+   "kind": "season",
+   "n": 135,
+   "tokens": 20
+  },
+  {
+   "kind": "guests",
+   "k": 2,
+   "tokens": 0,
+   "crown": true
+  }
+ ],
+ "holidays": [
+  {
+   "id": "new_year",
+   "from": "12-20",
+   "to": "01-10",
+   "token": "snowflake",
+   "color": "#8fd3ff",
+   "dishes": [
+    "xmas_cocoa",
+    "gingerbread"
+   ],
+   "shop": [
+    {
+     "id": "hol_new_year_1",
+     "cost": 35
+    },
+    {
+     "id": "hol_new_year_2",
+     "cost": 30
+    },
+    {
+     "id": "hol_new_year_3",
+     "cost": 45
+    },
+    {
+     "id": "hol_new_year_4",
+     "cost": 45
+    },
+    {
+     "id": "hol_new_year_5",
+     "cost": 60
+    },
+    {
+     "id": "hol_new_year_6",
+     "cost": 60
+    },
+    {
+     "id": "hol_new_year_7",
+     "cost": 60
+    }
+   ],
+   "crown": "hol_new_year_crown"
+  },
+  {
+   "id": "valentine",
+   "from": "02-07",
+   "to": "02-16",
+   "token": "heart",
+   "color": "#ff8fb1",
+   "dishes": [
+    "heart_cake",
+    "pink_cocktail"
+   ],
+   "shop": [
+    {
+     "id": "hol_valentine_1",
+     "cost": 30
+    },
+    {
+     "id": "hol_valentine_2",
+     "cost": 30
+    },
+    {
+     "id": "hol_valentine_3",
+     "cost": 60
+    },
+    {
+     "id": "hol_valentine_4",
+     "cost": 60
+    },
+    {
+     "id": "hol_valentine_5",
+     "cost": 45
+    },
+    {
+     "id": "hol_valentine_6",
+     "cost": 60
+    }
+   ],
+   "crown": "hol_valentine_crown"
+  },
+  {
+   "id": "spring",
+   "from": "04-01",
+   "to": "04-21",
+   "token": "tulip",
+   "color": "#ffd36b",
+   "dishes": [
+    "carrot_cake",
+    "bunny_buns"
+   ],
+   "shop": [
+    {
+     "id": "hol_spring_1",
+     "cost": 30
+    },
+    {
+     "id": "hol_spring_2",
+     "cost": 30
+    },
+    {
+     "id": "hol_spring_3",
+     "cost": 45
+    },
+    {
+     "id": "hol_spring_4",
+     "cost": 45
+    },
+    {
+     "id": "hol_spring_5",
+     "cost": 45
+    },
+    {
+     "id": "hol_spring_6",
+     "cost": 60
+    }
+   ],
+   "crown": "hol_spring_crown"
+  },
+  {
+   "id": "summer",
+   "from": "07-01",
+   "to": "07-21",
+   "token": "sun",
+   "color": "#ffb347",
+   "dishes": [
+    "summer_lemonade",
+    "berry_cake"
+   ],
+   "shop": [
+    {
+     "id": "hol_summer_1",
+     "cost": 30
+    },
+    {
+     "id": "hol_summer_2",
+     "cost": 45
+    },
+    {
+     "id": "hol_summer_3",
+     "cost": 45
+    },
+    {
+     "id": "hol_summer_4",
+     "cost": 45
+    },
+    {
+     "id": "hol_summer_5",
+     "cost": 45
+    },
+    {
+     "id": "hol_summer_6",
+     "cost": 60
+    }
+   ],
+   "crown": "hol_summer_crown"
+  },
+  {
+   "id": "halloween",
+   "from": "10-20",
+   "to": "11-02",
+   "token": "candy",
+   "color": "#ff9a3c",
+   "dishes": [
+    "ghost_cupcakes",
+    "witch_punch"
+   ],
+   "shop": [
+    {
+     "id": "hol_halloween_1",
+     "cost": 35
+    },
+    {
+     "id": "hol_halloween_2",
+     "cost": 30
+    },
+    {
+     "id": "hol_halloween_3",
+     "cost": 30
+    },
+    {
+     "id": "hol_halloween_4",
+     "cost": 45
+    }
+   ],
+   "crown": "hol_halloween_crown"
+  },
+  {
+   "id": "harvest",
+   "from": "11-03",
+   "to": "11-30",
+   "token": "leaf",
+   "color": "#e8a04a",
+   "dishes": [
+    "harvest_pie",
+    "caramel_apples"
+   ],
+   "shop": [
+    {
+     "id": "hol_harvest_1",
+     "cost": 30
+    },
+    {
+     "id": "hol_harvest_2",
+     "cost": 45
+    },
+    {
+     "id": "hol_harvest_3",
+     "cost": 30
+    },
+    {
+     "id": "hol_harvest_4",
+     "cost": 45
+    },
+    {
+     "id": "hol_harvest_5",
+     "cost": 60
+    },
+    {
+     "id": "hol_harvest_6",
+     "cost": 60
+    }
+   ],
+   "crown": "hol_harvest_crown"
+  }
+ ]
+}
